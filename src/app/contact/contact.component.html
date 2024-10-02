@@ -1,0 +1,57 @@
+<div class="container">
+  <section class="contact-form">
+    <h2>GET IN TOUCH</h2>
+
+    <!-- Contact Form -->
+    <form (ngSubmit)="sendEmail()" #contactForm="ngForm">
+      <input type="text" name="name" [(ngModel)]="formData.name" placeholder="Enter your name" required />
+      <input type="email" name="email" [(ngModel)]="formData.email" placeholder="Enter your mail" required />
+      <textarea name="message" [(ngModel)]="formData.message" placeholder="Enter your message" required></textarea>
+      <button type="submit">SEND</button>
+    </form>
+
+    <!-- Footer -->
+    <div class="copy">
+      <img src="assets/copyright.png" alt="">
+      <span class="nam">Sujith Sudhakaran</span>
+    </div> 
+  </section>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <div class="profile1">
+      <img src="assets/boy.png" alt="" class="boy">
+      <img src="assets/world.png" alt="" class="world">
+      <img src="assets/telephone.png" alt="" class="call">
+      <img src="assets/arroba.png" alt="" class="ar">
+    </div>
+    <div class="profile2">
+      <p class="animate"><strong class="str">Name</strong> <br> Sujith Sudhakaran</p>
+      <p class="animate"><strong class="str">Location</strong> <br> Andhra Pradesh, India</p>
+      <p class="animate"><strong class="str">Call</strong> <br> +91 80 1989 0981</p>
+      <p class="animate"><strong class="str">Mail</strong> <br> sujithrajani1603&#64;gmail.com</p>
+    </div>
+
+    <!-- Social Icons Section -->
+    <div class="profile3">
+      <img src="/assets/bat.png" alt="Bat Image" class="bat">
+      <div class="icons">
+        <a href="https://www.instagram.com/Sujith_1603" target="_blank">
+          <img src="assets/insta.png" alt="Instagram" class="inst">
+        </a>
+        <a href="mailto:sujithrajani1603@gmail.com" target="_blank">
+          <img src="assets/mail.png" alt="Mail" class="mail">
+        </a>
+        <a href="https://www.linkedin.com/in/sujith1603/" target="_blank">
+          <img src="assets/linkedin.png" alt="LinkedIn" class="link">
+        </a>
+        <a href="https://github.com/Sujith1603" target="_blank">
+          <img src="assets/git.png" alt="GitHub" class="git">
+        </a>
+        <a href="https://x.com/Sujith1603" target="_blank">
+          <img src="assets/x.png" alt="X" class="x">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

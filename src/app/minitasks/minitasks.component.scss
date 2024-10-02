@@ -1,0 +1,214 @@
+.project{
+    background-image: url('/assets/mi.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+    margin-top: -130px;
+    margin-right:25px ;
+
+    
+
+}
+.pi{
+    margin-bottom: 225px;
+}
+.hea{
+    display: flex;
+    margin-left: 85px;
+    gap: 60px;
+
+}
+.hea1 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #000000;
+    white-space: nowrap;
+    margin-left: -73px;
+
+}
+.git {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+.git:hover{
+    transform: scale(1.5);
+}
+.eye {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.eye:hover{
+    content: url(/assets/eyes.png);
+}
+.eyew {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.eyew:hover{
+    content: url(/assets/eyesw.png);
+}
+.hea2{
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+    // background-color: #C57AAC;
+    
+}
+.doc{
+    width: 241px;
+    height: 240px;
+    background-color: #C57AAC;
+    background-image: url('/assets/weat.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 21.84px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.doc1{
+    width: 241px;
+    height: 240px;
+    background-color: #C57AAC;
+    background-image: url('/assets/watch.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 21.84px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.doc2{
+    width: 241px;
+    height: 240px;
+    background-color: #C57AAC;
+    background-image: url('/assets/todobg1.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 21.84px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}.doc3{
+    width: 241px;
+    height: 240px;
+    background-color: #C57AAC;
+    background-image: url('/assets/xoxo.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 21.84px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}.doc4{
+    width: 241px;
+    height: 240px;
+    background-color: #C57AAC;
+    background-image: url('/assets/land.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 21.84px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.doc:hover {
+    border: 1px solid white; 
+}
+.d img{
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: -25px;
+}
+
+.card1{
+    display: flex;
+    gap: 155px;
+    margin-bottom: 125px;
+    margin-top: -180px;
+    
+    
+}
+.card2{
+    display: flex;
+    gap: 225px;
+}
+.card{
+    background-color: transparent !important;  
+    align-items: center; 
+}
+.doc h3,.doc1 h3,.doc2 h3,.doc3 h3,.doc4 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.doc1 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 22px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.hea1 .rh{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin-left: -35PX;
+}
+.rhea2{
+    margin-left:-15px;
+}
+.hea1 .fh{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: -45px;
+    white-space: nowrap;
+
+    color: #000;
+}
+.fhea2{
+    margin-left: -25px;
+}
+.hea1 .mh{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: -55px;
+    white-space: nowrap;
+
+    color: #000;
+}
+.mhea2{
+    margin-left: -35px;
+}
+.hea1 .ih{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-left: -50px;
+
+    color: #000;
+}
+.ihea2{
+    margin-left: -15px;
+}
+.md{
+    display: flex;
+    gap: 65px;
+
+}

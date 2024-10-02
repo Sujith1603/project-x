@@ -1,0 +1,276 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: -35px;
+    
+}
+  
+.contact-form {
+    flex: 1;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+  
+.contact-form h2 {
+    color: white;
+    font-size: 44px;
+    font-family: 'Kumar One', sans-serif;
+}
+  
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid white;
+    color: white;
+}
+
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid white;
+    color: white;
+    height: 320px;
+}
+  
+.contact-form button {
+    padding: 10px;
+    background-color: #EFE7E7;
+    color: black;
+    cursor: pointer;
+    border: none;
+    width: 143px;
+    border: 1px solid white;
+    font-weight: 900;
+    font-size: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover{
+    background-color: #000;
+    color:#EFE7E7 ;
+}
+
+  
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+  
+.profile {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    background-image: url('/assets/me.png');
+    background-position: -40px -110px;
+    color: white;
+    display: flex;
+    height: 700px;
+    width: 679px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    
+    
+}
+.profile:hover {
+    border: 1px solid white; 
+}
+
+  
+.profile-info img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+  
+.social-icons img {
+    width: 30px;
+    margin: 10px;
+}
+  
+.bat {
+    transform: rotate(-30deg);
+    width: 220px; 
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+.icons {
+    position: absolute;
+    top: -26%;
+    left: 51%;
+    transform: translate(1060%, 270%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons img {
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.inst {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.inst:hover {
+    transform: scale(1.5);
+}
+
+.mail {
+    width: 28px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.mail:hover {
+    transform: scale(1.5);
+}
+
+.link {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.5);
+}
+
+.git {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+.git:hover {
+    transform: scale(1.5);
+}
+
+.x {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.x:hover {
+    transform: scale(1.5);
+}
+
+
+.profile2 p {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.profile1 img {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.profile1  img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.profile1  img:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.profile1  img:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.profile1  img:nth-child(4) {
+    animation-delay: 3s;
+}
+.profile2  p:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.profile2  p:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.profile2  p:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.profile2  p:nth-child(4) {
+    animation-delay: 3s;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.copy img{
+    height: 28px;
+    width: 28px;
+    margin-bottom: 8px;
+}
+.copy span{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 15px;
+    
+}
+.copy{
+    margin-top: 45px;
+}
+.profile1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 225px;
+}
+.profile2{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 220px;
+}
+.boy{
+    height: 70px;
+    width: 70px;
+}
+.ar,.call,.world{
+    height: 60px;
+    width: 65px;
+}
+.str{
+    font-family: 'Kufam', sans-serif;
+    font-size: 30px;
+}
+.animate{
+    font-family: 'Kufam', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}

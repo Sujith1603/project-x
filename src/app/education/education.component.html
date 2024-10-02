@@ -1,0 +1,18 @@
+<div class="education">
+    <div class="education-container">
+        <h1>Education</h1>
+        <div class="timeline">
+          <div class="timeline-event" *ngFor="let edu of education; let i = index">
+            <div class="timeline-label">
+              <p>{{ edu.label }}</p>
+            </div>
+            <img [src]="getCheckpointIcon(i)" alt="Checkpoint" class="checkpoint">
+            <div class="timeline-content">
+              <h3>{{ edu.institution }}</h3>
+              <p>{{ edu.years }}</p>
+              <p>{{ edu.score }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>

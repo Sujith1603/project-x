@@ -1,0 +1,178 @@
+.ah{
+    font-size: 36px;
+    font-family: 'Pacifico', cursive;
+}
+.name{
+    font-size: 36px;
+    font-family: 'Plaster', sans-serif;
+    transition: color 0.3s ease; 
+}
+.name span:hover {
+    color: gold;
+}
+.space {
+    display: inline-block;
+    width: 20px; 
+}
+.about{
+    
+    background-color: white;
+    margin-top: -20px;
+    flex-wrap: wrap;
+justify-content: space-between;
+height: 115vh;
+    background-image: url('/assets/pi.jpeg');
+    background-repeat: no-repeat; 
+    background-position: 850px -87px;
+    background-size:  600px 950px;
+    margin-right:25px ;
+    overflow: hidden;
+    
+}
+.h{
+    font-size: 36px;
+    font-family: 'Kumar One', sans-serif;
+    margin-left: 338px;
+}
+
+.about1{
+flex: 1;
+display: flex;
+gap: -0px;
+}
+.head1{
+flex: 1;
+width: 700px;
+margin-top: 50px;
+margin-left: 15px;
+}
+.head2{
+flex: 1;
+}
+.head2 img{
+transform: rotate(45deg);
+height: 302px;
+width: 302px;
+margin-left: -180px;
+margin-top: -25px;
+}
+.about2{
+flex: 1;
+margin-right: 400px;
+}
+
+.p{
+width: 700px ;
+font-size: 16px;
+line-height: 2;
+font-family: 'Kumar One', sans-serif;
+max-height: 200px;
+word-break: 15px;
+margin-left: 15px;
+margin-top: 5px;
+}
+.html{
+height: 154px;
+width: 152px;
+margin-top: 4px;
+transition: transform 0.3s ease-in-out;
+}
+.html:hover{
+transform: scale(1.5);
+}
+.css{
+height: 150px;
+width: 115px;
+margin-bottom: 6px;
+transition: transform 0.3s ease-in-out;
+}
+.css:hover{
+transform: scale(1.5);
+}
+.js{
+height: 135px;
+width: 125px;
+margin-bottom: 22px;
+transition: transform 0.3s ease-in-out;
+}
+.js:hover{
+transform: scale(1.5);
+}
+.ts{
+height: 135px;
+width: 125px;
+margin-bottom: 22px;
+transition: transform 0.3s ease-in-out;
+}
+.ts:hover{
+transform: scale(1.5);
+}
+.node{
+height: 135px;
+width: 125px;
+margin-bottom: 22px;
+margin-left: 15px;
+transition: transform 0.3s ease-in-out;
+}
+.react{
+height: 135px;
+width: 125px;
+margin-bottom: 22px;
+margin-left: 15px;
+transition: transform 0.3s ease-in-out;
+}
+.ang{
+height: 135px;
+width: 125px;
+margin-bottom: 22px;
+transition: transform 0.3s ease-in-out;
+}
+.java{
+height: 135px;
+width: 125px;
+margin-bottom: 22px;
+transition: transform 0.3s ease-in-out;
+}
+.figma{
+height: 100px;
+width: 100px;
+margin-top: 15px;
+margin-left: px;
+transition: transform 0.3s ease-in-out;
+}
+.boot{
+height: 110px;
+width: 100px;
+margin-top: 15px;
+margin-left: 15px;
+transition: transform 0.3s ease-in-out;
+}
+.skills {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;   
+float: left;
+margin-left: 70px;
+}
+
+.skills1, .skills2 {
+display: flex;
+}
+.skills2{
+margin-left: 2px;
+margin-bottom: 150px;
+
+}
+
+
+.skills1 img:hover {
+transform: scale(1.5); 
+transition: transform 0.3s ease-in-out;
+}
+
+
+.skills2 img:hover {
+transform: scale(1.5);
+transition: transform 0.3s ease-in-out;
+}
